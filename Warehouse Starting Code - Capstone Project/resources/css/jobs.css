@@ -1,0 +1,59 @@
+.main {
+  text-align: left;
+  justify-items: auto;
+}
+
+.jobs {
+  padding: 3.75rem 11.75rem 7.5625rem 11.75rem;
+}
+
+.jobs h3 {
+  margin-bottom: 1rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  grid-template-rows: repeat(1, 1fr);
+  align-items: flex-end;
+  margin: 20px;
+}
+
+.job-list {
+  border-top: solid 1px hsla(0, 0%, 59%, 1);
+}
+
+.job {
+  border-bottom: solid 1px hsla(0, 0%, 59%, 1);
+  padding: 1rem 0;
+}
+
+.job h4 {
+  padding-bottom: .5rem;
+  font-size: inherit;
+  line-height: 1.2;
+}
+
+.see-all-jobs {
+  justify-self: center;
+  margin-top: 3.6875rem;
+}
+
+.button-job {
+  border-radius: 5px;
+  padding: 12px;
+  background-color: hsla(190, 52%, 16%, 1);
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  height: 20%;
+  width: 20%;
+  margin: 10px;
+  color: hsla(0, 0%, 93%, 1);
+}
+
+.button-job:hover {
+
+  background-color: hsla(190, 52%, 16%, 1);
+  color: hsla(175, 26%, 61%, 1);
+}

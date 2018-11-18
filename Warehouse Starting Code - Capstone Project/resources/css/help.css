@@ -1,0 +1,38 @@
+/* Help Page */
+
+.help h1 {
+    width: 100%;
+    padding: 1.5rem 0;
+    text-align: center;
+    font-size: 42px;
+    font-stretch: condensed;
+    color: hsla(190, 52%, 16%, 1);
+    
+}
+
+.help .information {
+    padding: 3.75rem 20% 6.75rem 20%;
+    color: hsla(0, 0%, 29%, 1);
+}
+
+.help h3 {
+    margin-bottom: 1rem;
+    text-align: match-parent;
+    font-size: inherit;
+}
+
+.help p {
+    padding-bottom: 2rem;
+    text-align: match-parent;
+    font-size: inherit;
+    line-height: 1.8;
+}
+
+.help .email {
+    display: grid;
+    justify-items: center;
+    padding: 1.5rem 0;
+    border: none;
+    border-radius: 2px;
+    background-color: hsla(0, 0%, 100%, 1);
+  }
